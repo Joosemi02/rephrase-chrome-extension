@@ -1,10 +1,42 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
+
 <head>
-	<link rel="stylesheet" href="popup.css">
+  <link rel="stylesheet" href="bootstrap.min.css">
 </head>
+
 <body>
-	<iframe width="100%" height="100%"></iframe>
-	<script src="helpers.js"></script>
-	<script src="popup.js"></script>
+  <nav class="navbar navbar-light bg-light">
+    <a class="navbar-brand" href="#">
+      <div class="d-flex align-items-center">
+        <img src="icon.png" alt="GPT Explain logo" class="logo mr-2">
+        <span class="text">GPT Explain</span>
+      </div>
+    </a>
+  </nav>
+  
+  <div class="container mt-3" style="max-width: 400px;">
+    <h4>Extension language</h4>
+    <select class="form-control mt-3" name="source-lang" id="lang-select">
+      <option value="en">English</option>
+      <option value="de">German</option>
+      <option value="fr">French</option>
+      <option value="es">Spanish</option>
+      <option value="pt">Portuguese</option>
+      <option value="it">Italian</option>
+      <option value="nl">Dutch</option>
+      <option value="pl">Polish</option>
+      <option value="ru">Russian</option>
+      <option value="ja">Japanese</option>
+      <option value="zh">Chinese</option>
+    </select>
+    <h6 class="mt-4">How to use</h2>
+    <div class="alert alert-info text-center mt-3">
+      Select text > Right click > Rephrase with GPT Explain
+    </div>
+  </div>
+  
+  <script src="options.js"></script>
+</body>
+
 </html>

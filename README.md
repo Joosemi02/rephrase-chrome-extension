@@ -4,8 +4,6 @@ This plugin allows you to select words or phrases to get an explanation generate
 
 [![Available in the Chrome Web Store](./webstore-button.png)](https://chrome.google.com/webstore/detail/deepl-translator-plus/oaifgiocjahpndddpenihgnoccbmkghe)
 
-[![Available in the Chrome Web Store](./webstore-button.png)](https://chrome.google.com/webstore/detail/deepl-translator-plus/oaifgiocjahpndddpenihgnoccbmkghe)
-
 ## Features:
 - Automatically explain selected text
 - Restore last explained text
